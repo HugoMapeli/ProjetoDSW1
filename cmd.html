@@ -20,6 +20,15 @@
         width: 80%;
         background-color: black;
       }
+      .azul{
+        color: blue;
+      }
+      .verde{
+        color:green;
+      }
+      .vermelho{
+        color: red;
+      }
     </style>
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -62,20 +71,75 @@
       </div>
       <div class="col float-right">
         <h3 class="pt-5"> Passo 3.1 </h3>
-        <p> Configure sua identidade no CMD. Siga o exemplo ao lado. </p>
+        <p> Configure sua identidade no CMD, seguindo o exemplo ao lado. </p>
+        <p style="color: green"> git config --global user.name "username" </p>
+        <p style="color: green"> git config --global user.email "email" </p>
       </div>
     </div>
 
+    <hr>
+
     <div class="row p-5">
       <div class="col float-left">
-        <img style="width: 100%; height: 100%;" src="img/gitcmd1.png">
+        <img style="width: 100%; height: 100%;" src="img/gitcmd2.png">
       </div>
       <div class="col float-right">
         <h3 class="pt-5"> Passo 3.2 </h3>
-        <p> Para clonar um repositório, você deve ir até a página dele e clicar em <span style="color: green"> "clonar ou fazer download" </span>
-        <p> <b> 
+        <p> Para clonar um repositório para seu desktop, você deve ir até a página dele e clicar em <span class="verde"> "clone ou download" </span>. Copie a url que apareceu e digite no CMD <span class="vermelho"> "git clone (url)" </span>, como o exemplo ao lado. </p>
+        <p style="font-style: italic; font-weight: bold;"> O comando <span class="azul"> cd </span> é utilizado para navegar entre os locais do computador. </p>
       </div>
     </div>
+
+    <hr>
+
+    <div class="row p-5">
+      <div class="col float-left">
+        <img style="width: 100%; height: 100%;" src="img/gitcmd3.png">
+      </div>
+      <div class="col float-right">
+        <h3 class="pt-5"> Passo 3.3 </h3>
+        <p> Com o comando <span class="verde"> git status</span>, você pode observar o estado dos seus arquivos ou de um arquivo específico <span class="verde">(git status <span class="vermelho"> arquivo</span>). </span>
+        <p> Existem três tipos de estado: </p>
+        <p> <b> Comitted: </b>quando o arquivo está armazenado no repositório local. </p>
+        <p> <b> Modified: </b>quando o arquivo foi modificado e ainda não foi salvo no repositório local </p>
+        <p> <b> Staged: </b>quando o arquivo modificado foi marcado para ser salvo no repositório local no próximo <span class="azul"> commit</span>.
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row p-5">
+      <div class="col float-left">
+        <img style="width: 100%; height: 100%;" src="img/gitcmd3.png">
+      </div>
+      <div class="col float-right">
+        <h3 class="pt-5"> Passo 3.4 </h3>
+        <p> O comando <span class="verde"> git add </span> prepara um arquivo para commit, adicionando suas modificações. </p>
+        <p style="font-style: italic; font-weight: bold; color: blue"> -Git add <span class="vermelho">arquivo</span> adiciona somente o arquivo selecionado. </p>
+        <p style="font-style: italic; font-weight: bold; color: blue"> -Git add <span class="vermelho">*</span> adiciona todos os arquivos modificados. </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row p-5">
+      <div class="col float-left">
+        <img style="width: 100%; height: 100%;" src="img/gitcmd3.png">
+      </div>
+      <div class="col float-right">
+        <h3 class="pt-5"> Passo 3.4 </h3>
+        <p> O comando <span class="verde"> git add </span> prepara um arquivo para commit, adicionando suas modificações. </p>
+        <p style="font-style: italic; font-weight: bold; color: blue"> -Git add <span class="vermelho">arquivo</span> adiciona somente o arquivo selecionado. </p>
+        <p style="font-style: italic; font-weight: bold; color: blue"> -Git add <span class="vermelho">*</span> adiciona todos os arquivos modificados. </p>
+      </div>
+    </div>
+
+
+
+
+
+
+
 
  
 
